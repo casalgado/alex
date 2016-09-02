@@ -1,0 +1,26 @@
+#snap-space {
+	height: 763px;
+	width: 100%;
+}
+
+#main-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: none;
+    outline: none;
+    border: 0;
+    background: transparent; 
+    margin: 80px -40px; 
+    position:absolute;
+    top:50%; 
+    left:50%;
+    font-family: 'Droid Serif', serif;
+	font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+#modal-image {
+    cursor: pointer;
+}

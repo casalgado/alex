@@ -1,0 +1,30 @@
+.border {
+	border: 1px solid black;
+}
+
+body {
+	background-color: black;
+}
+
+.column {
+	display: none;
+	padding: 0px;
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.column img {
+    display:block;
+    margin:auto;
+}
+
+#main-button { 
+    position:absolute;
+    top:10%; 
+    left:50%;
+    font-family: 'Droid Serif', serif;
+	font-size: 20px;
+}
+

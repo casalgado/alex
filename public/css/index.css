@@ -1,0 +1,37 @@
+h1, p {
+    text-align: center;
+
+}
+
+.intro p {
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 30px;
+}
+
+.intro h1 {
+    margin-top: 50px;
+}
+
+#main-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+    height:260px; 
+    width:260px; 
+    margin: -65px -130px; 
+    position:absolute;
+    top:50%; 
+    left:50%;
+    font-family: 'Droid Serif', serif;
+	font-size: 80px;
+    color: dodgerblue;
+}
+
+#button-font {
+    font-size: 40px;
+}
+
