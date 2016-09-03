@@ -6,7 +6,7 @@ var question1 = function(){
 	confirmation = "eckhart"
 	if (answer === confirmation ) { 
 		alert("Correcto!")
-		// window.location.href = "http://localhost:9292/budapest";
+		window.location.href = "http://localhost:9292/china";
 
 	} else {
 		alert("Try Again")

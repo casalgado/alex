@@ -12,3 +12,8 @@ var question1 = function(){
 }
 
 $('#submit').click(question1)
+
+$('.mini-window').mouseover(function() { 
+            $(this).children('img').show().fadeOut(1000);
+            $('#main-button').fadeIn(9000)
+        })

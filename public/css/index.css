@@ -1,22 +1,27 @@
 h1, p {
     text-align: center;
-
+    color: lightgray;
 }
 
 .intro p {
-    padding-left: 300px;
-    padding-right: 300px;
-    margin-top: 30px;
+    width: 400px;
+    position: absolute;
+    top: 193px;
+    right: 130px;
 }
 
 .intro h1 {
-    margin-top: 50px;
+    position: absolute;
+    width: 500px;
+    top: 85px;
+    right: 69px;
 }
 
 #main-button {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    display: none;
     outline: none;
     border: 0;
     background: transparent;
@@ -25,13 +30,90 @@ h1, p {
     margin: -65px -130px; 
     position:absolute;
     top:50%; 
-    left:50%;
+    left:930px;
     font-family: 'Droid Serif', serif;
 	font-size: 80px;
-    color: dodgerblue;
+    color: lightgray;
 }
 
 #button-font {
     font-size: 40px;
 }
+
+#wp {
+    position: absolute;
+    width: 1280px;
+    top: 0px;
+    z-index: -1;
+}
+
+.mini-window img {
+    width: 99px !important; 
+    height: 117px;
+    display: none;
+}
+
+.mini-window {
+    position: absolute;
+    width: 95px;
+    height: 117px;
+}
+
+#mw1 {
+    top: 130px;
+    left: 220px;
+}
+
+#mw2 {
+    top: 130px;
+    left: 335px;
+}
+
+#mw3 {
+    top: 130px;
+    left: 444px;
+}
+
+#mw4 {
+    top: 261px;
+    left: 221px;
+}
+
+#mw5 {
+    top: 261px;
+    left: 332px;
+}
+
+#mw6 {
+    top: 261px;
+    left: 444px;
+}
+
+#mw7 {
+    top: 392px;
+    left: 220px;
+}
+
+#mw8 {
+    top: 392px;
+    left: 332px;
+}
+
+#mw9 {
+    top: 392px;
+    left: 442px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
