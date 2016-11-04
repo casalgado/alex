@@ -17,6 +17,10 @@ h1, p {
     right: 69px;
 }
 
+#modal-text {
+    color: gray; 
+}
+
 #main-button {
     appearance: none;
     -webkit-appearance: none;

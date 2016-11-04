@@ -1,0 +1,52 @@
+
+body {
+	height: 100%;
+
+}
+
+.china-bg {
+	width: 100%;
+}
+
+.hover-box {
+	width: 44px;
+	height: 44px;
+	background-color: #4682B4;
+	color: white;
+	position: absolute;
+	top: 40px;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 8px;
+	border-radius: 22px;
+}
+
+#hb1 {
+	left: 400px;
+}
+
+#hb2 {
+	left: 500px;
+	display: none;
+}
+
+#hb3 {
+	left: 600px;
+	display: none;
+}
+
+.column {
+	display: none;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.column img {
+    display:block;
+    margin:auto;
+    height: 100%;
+}
