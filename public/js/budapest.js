@@ -13,15 +13,17 @@ var question1 = function(){
 
 $('#submit').click(question1)
 
-
-$('#col1').fadeIn( 2000, function() {
-    $('#col2').fadeIn( 4000, function() {
-    	$('#col3').fadeIn( 4000, function() {
-    		$('#col4').fadeIn( 4000, function() {
-  			});
-  		});
-  	});
+$(document).ready(function() {
+  $('#col1').fadeIn( 2000, function() {
+      $('#col2').fadeIn( 4000, function() {
+        $('#col3').fadeIn( 4000, function() {
+          $('#col4').fadeIn( 4000, function() {
+          });
+        });
+      });
+  });
 });
+
 
 $(function() {
     $("#modal-image")

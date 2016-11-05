@@ -23,16 +23,36 @@ body {
 }
 
 #hb1 {
-	left: 400px;
+	left: 300px;
 }
 
 #hb2 {
-	left: 500px;
+	left: 400px;
 	display: none;
 }
 
 #hb3 {
+	left: 500px;
+	display: none;
+}
+
+#hb4 {
 	left: 600px;
+	display: none;
+}
+
+#hb5 {
+	left: 700px;
+	display: none;
+}
+
+#hb6 {
+	left: 800px;
+	display: none;
+}
+
+#hb7 {
+	left: 900px;
 	display: none;
 }
 
